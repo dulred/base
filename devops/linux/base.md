@@ -46,6 +46,21 @@ _实例：_
 #### 1.4 ip addr 
 > 查看linux的ip地址
 
+#### 1.4 free 
+> 查看linux的内存大小,默认是kb
+
+#### 1.5 lsb_release -a 
+> 查看linux的发行版 
+
+```
+Distributor ID:	Ubuntu
+Description:	Ubuntu 22.04 LTS
+Release:	22.04
+Codename:	jammy
+```
+
+
+
 
 ###  2 apt 对软件包的CRUD
 > apt（Advanced Packaging Tool）是一个在 Debian 和 Ubuntu 中的 Shell 前端软件包管理器。
@@ -79,6 +94,8 @@ deb-src http://mirrors.163.com/ubuntu/ jammy-updates main restricted universe mu
 deb-src http://mirrors.163.com/ubuntu/ jammy-proposed main restricted universe multiverse
 deb-src http://mirrors.163.com/ubuntu/ jammy-backports main restricted universe multiverse
 ```
+
+
 
 _参考_ 
 
