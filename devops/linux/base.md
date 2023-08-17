@@ -58,7 +58,8 @@ Description:	Ubuntu 22.04 LTS
 Release:	22.04
 Codename:	jammy
 ```
-
+#### 1.6 curl ifconfig.me
+> 通过curl 发送一个get请求到ifconfig.me
 
 
 
